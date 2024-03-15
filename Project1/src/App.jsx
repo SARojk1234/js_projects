@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Accordian from './components'
+import ImageSlider from './components/ImageSlider'
 import './App.css'
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className='app'>
-      <Accordian />
+      <ImageSlider />
     </div>
   )
 }
